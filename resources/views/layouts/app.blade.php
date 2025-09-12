@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel Task Manager</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-gray-100 min-h-screen font-sans">
-    <nav class="bg-blue-600 p-4 text-white font-bold text-xl">
+<body class="min-h-screen font-sans bg-gray-100">
+    <nav class="p-4 text-xl font-bold text-white bg-blue-600">
         Laravel Task Manager
     </nav>
 
-    <main class="container mx-auto py-6">
+    <main class="container py-6 mx-auto">
         @yield('content')
     </main>
 </body>

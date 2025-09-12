@@ -1,9 +1,2 @@
-/* app.css */
-
-/* Replace '@tailwind base;' */
 @import "tailwindcss/preflight";
-
-/* Replace '@tailwind components;' (optional if you have custom components, otherwise skip) */
-
-/* Keep utilities */
-@tailwind utilities;
+@import "tailwindcss/utilities";
